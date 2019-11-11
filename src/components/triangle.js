@@ -74,7 +74,6 @@ class Triangle extends Component {
     }
 
     check_button_state(){
-        //console.log(this.state.side_1, this.state.side_2, this.state.side_3, this.state.side_1_error, this.state.side_2_error, this.state.side_3_error)
         if (this.state.side_1 && this.state.side_2 && this.state.side_3 && !this.state.side_1_error && !this.state.side_2_error && !this.state.side_3_error){
             this.setState({button_disable: false})
         }
